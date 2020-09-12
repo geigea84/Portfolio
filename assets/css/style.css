@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --color1: #Ffff00;
+    --color2: #293250;
+    --color3: #008080;
+}
+
+/* header styles */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url("../images/banner.jpg");
+    padding: 30px 20px 150px 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--color1);
+    border: 2px solid var(--color3);
+    border-radius: 50%;
+}
+
+header a:hover {
+    background-color: var(--color3);
+}
+
+header nav {
+    margin: 9px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+}
