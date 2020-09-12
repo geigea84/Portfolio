@@ -117,6 +117,12 @@ header h2 {
     flex-wrap: wrap;
 }
 
+.contact-list {
+    background-color: rgba(0, 128, 128, .6);
+    margin: 0 50px;
+    width: 60%;
+}
+
 .contact-me a {
     text-decoration: none;
 }
@@ -130,11 +136,23 @@ header h2 {
 }
 
 .contact-me ul li {
-    padding: 0 15px 0 15px;
+    padding: 30px;
+    margin: 0 10px;
 }
 
-.contact-me h3, .contact-me a {
+.contact-me h3 {
     color: var(--color1);
     text-shadow: 1.5px 1px 2px black;
-    background-color: rgba(0, 128, 128, .6);
+    margin: 20px 0;
+    text-align: center;
+    border-right: 7px solid var(--color2);
+    border-top: 3px solid var(--color2);
+}
+
+.contact-me a {
+    color: var(--color1);
+}
+
+.email {
+    padding: 0 30px;
 }
