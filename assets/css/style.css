@@ -102,12 +102,38 @@ header h2 {
 
 .about-me p {
     width: 60%;
-    margin: 10px 50px 10px 0;
+    margin: 10px 55px 10px 0;
 }
 
 /* my-projects styles */
 
+.my-projects {
+    display: flex;
+    justify-content: space-between;
+}
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 10px 50px 10px 0;
+    text-align: left;
+    color: var(--color1);
+    text-shadow: 1.5px 1px 2px black;
+}
+
+.run-buddy {
+    grid-column: 1/ span 2;
+    grid-row: 1/ span 2;
+}
+
+.grid-item {
+    border: 1px solid var(--color3);
+    padding: 10px 135px 30px 5px;
+    margin: 2px;
+    border-right: 7px solid var(--color2);
+    border-top: 3px solid var(--color2);
+}
 
 /* contact-me styles */
 
