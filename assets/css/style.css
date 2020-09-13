@@ -136,20 +136,92 @@ header h2 {
     grid-column: 1/ span 2;
     grid-row: 1/ span 2;
     background-image: url("../images/run-buddy-snip.PNG");
+    position: relative;
 }
 
 .run-buddy-link {
-    display: block;
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .horiseon {
     background-image: url("../images/horiseon-snip.PNG");
+    position: relative;
+}
+
+.horiseon-link {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.project3 {
+    background-image: url("../images/hulk.jpg");
+    position: relative;
+}
+
+.project3-link {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.project4 {
+    background-image: url("../images/randy.jpg");
+    position: relative;
+}
+
+.project4-link {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.project5 {
+    background-image: url("../images/rock.jpg");
+    position: relative;
+}
+
+.project5-link {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.project6 {
+    background-image: url("../images/steve.jpg");
+    position: relative;
+}
+
+.project6-link {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .grid-item {
-    border: 1px solid var(--color3);
     padding: 10px 55.75px 50px 5px;
     margin: 2px;
+    border: 1px solid var(--color3);
     border-right: 7px solid var(--color2);
     border-top: 3px solid var(--color2);
     color: var(--color1);
@@ -158,7 +230,7 @@ header h2 {
 }
 
 .grid-item:hover {
-    background-color: var(--color4);
+    border: 7px solid var(--color3);
 }
 
 .grid-text-large {
@@ -166,6 +238,8 @@ header h2 {
     margin-right: 150px;
     margin-top: 150px;
     padding: 2px;
+    border-right: 7px solid var(--color2);
+    border-top: 3px solid var(--color2);
 }
 
 .grid-text {
@@ -173,6 +247,8 @@ header h2 {
     padding: 2px;
     margin-top: 50px;
     margin-right: 50px;
+    border-right: 7px solid var(--color2);
+    border-top: 3px solid var(--color2);
 }
 
 /* contact-me styles */
