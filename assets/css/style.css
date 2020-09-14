@@ -19,6 +19,7 @@ body h2 {
     text-shadow: 1.5px 1px 2px black;
     background-color: var(--color5);
     padding-top: 20px;
+    padding-bottom: 20px;
     margin: 10px 0 10px 50px;
     vertical-align: middle;
     width: 20%;
@@ -87,7 +88,7 @@ header nav ul li {
     padding: 0 15px 0 15px;
 }
 
-.header-img {
+header img {
     padding-left: 72px;
 }
 
@@ -305,4 +306,138 @@ header h2 {
     border-radius: 15%;
 }
 
-/* footer styles */
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+@media screen and (max-width: 980px) {
+    
+    .my-projects {
+        display: block;
+    }
+
+    .my-projects h2 {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .grid-wrapper {
+        width: 90%;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+
+@media screen and (max-width: 768px) {
+
+    .about-me {
+        display: block;
+    }
+
+    .about-me h2 {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+
+    .about-me p {
+        width: 90%;
+        padding-top: 10px;
+    }
+
+    .contact-me {
+        display: block;
+    }
+
+    .contact-me h2 {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+
+    .contact-list {
+        width: 90%;
+        margin: 10px auto 0;
+    }
+
+    .contact-list a {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    header {
+        background-image: none;
+        background-color: var(--color2);
+    }
+
+    header h1 {
+        text-align: center;
+    }
+
+    .topline {
+        display: block;
+    }
+
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    header nav ul li {
+        margin: 30px 0;
+    }
+
+    header nav ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    .header-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        padding-right: 77px;
+    }
+
+    header h2 {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .about-me h2 {
+        margin-top: 10px;
+    }
+
+    .grid-wrapper {
+        width: 90%;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .run-buddy {
+        grid-column: 1/ span 1;
+        grid-row: 1/ span 1;
+    }
+
+    .grid-text-large {
+        background-color: var(--color5);
+        padding: 2px;
+        margin-top: 50px;
+        margin-right: 50px;
+        border-right: 7px solid var(--color2);
+        border-top: 3px solid var(--color2);
+    }
+
+    .contact-list ul {
+        display: block;
+        text-align: center;
+    }
+
+    .contact-list a {
+        padding-right: 0;
+        text-decoration: underline;
+    }
+}
