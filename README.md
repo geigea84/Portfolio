@@ -10,7 +10,7 @@ This is a brief look at my coding work that I've performed.
 ## Deployed Website
 https://geigea84.github.io/Portfolio/
 
-![image](portfolio/assets/images/website.png)
+![image](./assets/images/website.png)
 
 ## Contribution
 Yours Truly
