@@ -163,12 +163,12 @@ header h2 {
     left: 0;
 }
 
-.project3 {
-    background-image: url("../images/hulk.jpg");
+.table-top-resource {
+    background-image: url("../images/project1-snip.PNG");
     position: relative;
 }
 
-.project3-link {
+.table-top-resource-link {
     content: "";
     height: 100%;
     width: 100%;
