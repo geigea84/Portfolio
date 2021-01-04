@@ -177,12 +177,12 @@ header h2 {
     left: 0;
 }
 
-.project4 {
-    background-image: url("../images/randy.jpg");
+.how-to-help {
+    background-image: url("../images/howtohelpsnip.PNG");
     position: relative;
 }
 
-.project4-link {
+.how-to-help-link {
     content: "";
     height: 100%;
     width: 100%;
